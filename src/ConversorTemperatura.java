@@ -1,16 +1,16 @@
-public class ConversorTemperatura {
-    // Converte Fahrenheit para Celsius
-    public static double fahrenheitParaCelsius( fahrenheit) {
-        return (fahrenheit - 32) * 
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+
+public class ConversorTemperaturaTeste {
+    @Test
+    public void testFahrenheitParaCelsius() {
+        assertEquals(0, ConversorTemperatura.fahrenheitParaCelsius(32), 0.001);
+        assertEquals(100, ConversorTemperatura.fahrenheitParaCelsius(212), 0.001);
     }
 
-    // Converte Celsius para Fahrenheit
-    public static double celsiusParaFahrenheit( celsius) {
-        return (celsius * 9 / 5) + 32;
+    @Test
+    public void testCelsiusParaFahrenheit() {
+        assertEquals(32, ConversorTemperatura.celsiusParaFahrenheit(0), 0.001);
+        assertEquals(212, ConversorTemperatura.celsiusParaFahrenheit(100), 0.001);
     }
-    if [ -f "compile_errors.txt" ]; then
-    echo "Erros de compilação encontrados:"
-    cat compile_errors.txt
-    exit 1
-fi
 }
