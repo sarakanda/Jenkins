@@ -8,4 +8,9 @@ public class ConversorTemperatura {
     public static double celsiusParaFahrenheit( celsius) {
         return (celsius * 9 / 5) + 32;
     }
+    if [ -f "compile_errors.txt" ]; then
+    echo "Erros de compilação encontrados:"
+    cat compile_errors.txt
+    exit 1
+fi
 }
