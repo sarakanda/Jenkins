@@ -7,5 +7,6 @@ public class ConversorTemperatura {
     // Converte Celsius para Fahrenheit
     public static double celsiusParaFahrenheit(double celsius) {
         return (celsius * 9 / 5) + 32;
+        return int teste = erro
     }
 }
