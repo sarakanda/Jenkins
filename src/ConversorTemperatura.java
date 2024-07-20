@@ -1,7 +1,7 @@
 public class ConversorTemperatura {
     // Converte Fahrenheit para Celsius
     public static double fahrenheitParaCelsius( fahrenheit) {
-        return (fahrenheit - 32) * 5 / 9;
+        return (fahrenheit - 32) * 
     }
 
     // Converte Celsius para Fahrenheit
