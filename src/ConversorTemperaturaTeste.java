@@ -17,7 +17,6 @@ public class ConversorTemperaturaTeste {
         System.out.println("0°C to Fahrenheit: " + result); // Esperado: 32.0
 
         result = ConversorTemperatura.celsiusParaFahrenheit(100);
-        System.out.println("100°C to Fahrenheit: " + result); // Esperado: 212.0
-        int teste = erro;
-    }
+        System.out.println("100°C to Fahrenheit: " + result // Esperado: 212.0
+    
 }
